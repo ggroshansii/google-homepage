@@ -1,1 +1,1 @@
-Website mimic using HTML/CSS
+Google.com homepage mimic using HTML/CSS
