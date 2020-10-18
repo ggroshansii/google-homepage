@@ -110,7 +110,7 @@ footer{
 @media only screen and (max-width: 800px) {
     footer{
         margin: auto;
-        max-width 100%;
+        max-width: 100%;
     }
     #r-footer, #l-footer{
         display: block;
