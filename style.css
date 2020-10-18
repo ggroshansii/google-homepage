@@ -1,6 +1,5 @@
-*{
-    font-family: arial;
-    
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
 }
 
 html{
@@ -8,14 +7,16 @@ html{
 }
 
 nav{
-    padding: 15px 0px 0px 0px;
+    padding: 20px 0px 0px 15px;
 }
 
 nav a{
     font-size: 13.5px;
-    text-decoration: none;
+    text-decoration: none; 
+}
 
-    
+a{
+    color: black;
 }
 
 .header-link{
@@ -35,18 +36,18 @@ nav a{
 
 #search{
     display: block;
-    margin: auto;
     border-radius: 25px; 
     height: 39px;
     width: 470px;
     margin: 30px auto;
+    border-style: solid;
     border-width: 1px;
-    border-color: #f2f2f2;
+    border-color: #d1d1d1;
 
 }
 
 input:hover{
-    box-shadow: 99px #f2f2f2;
+    box-shadow: 99px #d6d6d6;
 }
 
 main{
@@ -64,9 +65,9 @@ main{
 
 #search-button1, #search-button2{
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     font-size: 14px;
-    color: gray;
+    color: rgb(95, 95, 95);
     border-style: none;
     border-radius: 3px;
 }
@@ -93,6 +94,23 @@ footer{
 }
 
 .footer-link{
-    padding: 0px 10px 0px 10px;
+ 
+    padding: 5px 15px 5px 15px;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 800px) {
+
+    #r-footer, #l-footer{
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        float: none;
+    }
+    #r-footer{
+    
+    }
+    #l-footer{
+    padding: 0px 0px 25px 0px;
+    }
+  }
