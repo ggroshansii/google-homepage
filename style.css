@@ -87,28 +87,37 @@ footer{
     bottom: 0px;
     width: 100%;
     font-size: 14px;
+   
 }
 
 #r-footer{
-    float: right;
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+#l-footer{
+    display: inline-block;
+    width: 49%;
 }
 
+
 .footer-link{
- 
-    padding: 5px 15px 5px 15px;
     text-decoration: none;
+    padding: 20px 10px 10px 25px;
+    color: rgb(141, 141, 141);
 }
 
 @media only screen and (max-width: 800px) {
-
-    #r-footer, #l-footer{
-        text-align: center;
-        width: 70%;
+    footer{
         margin: auto;
-        float: none;
+        max-width 100%;
     }
-    #r-footer{
-    
+    #r-footer, #l-footer{
+        display: block;
+        text-align: center;
+        width: 75%;
+        margin: 0px 0px 0px 50px;
+        margin: auto;
     }
     #l-footer{
     padding: 0px 0px 25px 0px;
